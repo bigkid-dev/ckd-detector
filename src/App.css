@@ -1,0 +1,146 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+/* Navbar */
+.navbar {
+  /* width: 95%; */
+  margin: auto;
+
+  display: flex;
+  height: 101px;
+
+  top: 57px;
+  border-radius: 0px;
+  padding: 20px 0px 20px 0px;
+  background-color: #18181a;
+}
+
+.logo {
+  width: 20%;
+}
+
+.navigations {
+  width: 60%;
+  display: flex;
+  padding-right: 30px;
+}
+.navigations a {
+  position: relative;
+  top: 40%;
+  color: #f3efef;
+  padding-right: 50px;
+}
+
+.logo-text {
+  font-family: Avenir Next Cyr;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f3efef;
+  position: relative;
+  top: -50px;
+  left: 50px;
+}
+
+.routes {
+  display: flex;
+  position: relative;
+  top: 20%;
+}
+.cart {
+  display: flex;
+  padding-left: 50px;
+  color: #f3efef;
+}
+
+.sign-in {
+  color: #f3efef;
+}
+.carousel {
+  width: 100%;
+  height: 100vh;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+}
+/* hero */
+.hero {
+  height: 100vh;
+}
+
+/* Now Showing Section */
+
+#show-section {
+  background-color: #18181a;
+}
+
+.date-showing {
+  display: flex;
+  width: 40%;
+  height: 100px;
+}
+.date-box {
+  width: 20%;
+  border-style: solid;
+  border-color: #f3efef;
+  height: 70px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+.top {
+  display: flex;
+  margin-bottom: 50px;
+}
+.below {
+  display: flex;
+}
+.showing {
+  display: flex;
+  width: 50%;
+}
+.img {
+  width: 50%;
+  height: 200px;
+  border-style: solid;
+  border-radius: 15px;
+}
+.about {
+  width: 50%;
+}
+.intro {
+  color: rgb(245, 194, 128);
+}
+.title {
+  color: #f3efef;
+}
+.text {
+  color: #f3efef;
+}

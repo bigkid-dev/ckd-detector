@@ -1,0 +1,151 @@
+@import "colors";
+
+
+@mixin btn($right: 12%){
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid $green;
+    background-color: $green;
+    color: $color;
+    right: $right;
+}
+
+.form-area{
+    background-color: #a9aca9;
+    border: 1px solid #a9aca9;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 7%;
+    
+}
+#user-info{
+    width: 40%;
+    height: 70%;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 0;
+    background-color: $color;
+    border-radius: 15px;
+    margin: auto;
+    border: 1px #fffdfd;
+    padding-top:3%;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 3%;
+    
+}
+
+h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 3%;
+}
+#ckd-data{
+    width: 40%;
+    height: 80%;
+    border: 1px solid $color;
+    margin: auto;
+    margin-top: 0;
+    background-color: $color;
+    margin-top: 5%;
+    border-radius: 15px;
+    padding-top: 2%;
+}
+
+#msg-data{
+    width: 40%;
+    height: 80%;
+    border: 1px solid $color;
+    margin: auto;
+    margin-top: 0;
+    background-color: $color;
+    margin-top: 5%;
+    border-radius: 15px;
+    padding-top: 15%;
+}
+
+.form-row{
+    display: flex;
+    width: inherit;
+    margin: auto;
+    height: 65px;
+}
+
+.input{
+    width: 40%;
+    margin: auto;
+    border-bottom: 0.5px solid #969696;
+    height: 50px;
+
+    input{
+        border: none;
+        background-color: $color;
+        width: inherit;
+       
+    }
+    input:focus{
+        outline: none;
+    }
+}
+
+#next{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid $green;
+    background-color: $green;
+    color: $color;
+    position: absolute;
+    right: 12%;
+ 
+}
+
+#send-msg{
+    // width: 100px;
+    // height: 40px;
+    // border-radius: 10px;
+    // border: 1px solid $green;
+    // background-color: $green;
+    // color: $color;
+    // position: absolute;
+    //margin-top: 3% ;
+    @include btn(12%);
+    right: 12%;
+    
+ 
+}
+
+#prev-btn{
+    // width: 100px;
+    // height: 40px;
+    // border-radius: 10px;
+    // border: 1px solid $green;
+    // background-color: $green;
+    // color: $color;
+    //right: 35%;
+    @include btn(35%);
+    position: absolute;
+    
+}
+
+#email{
+    width: 90%;
+    margin: auto;
+    border-bottom: 0.5px solid #969696;
+    height: 50px;
+    margin-top: 5%;
+
+    input{
+        border: none;
+        background-color: $color;
+        width: inherit;
+       
+    }
+    input:focus{
+        outline: none;
+    }
+}
